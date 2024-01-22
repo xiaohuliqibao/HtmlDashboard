@@ -45,6 +45,7 @@ i {
   align-items: center;
   justify-content: space-between;
   padding: 40px 0;
+  height: 60vh;
 }
 .container .left-section .sidebar {
   display: flex;
@@ -112,10 +113,11 @@ i {
 
 .container .left-section .pic img {
   width: 160px;
+  display: none;
 }
 
 .container .left-section .upgrade {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #ebf6ff;
   height: 90px;
