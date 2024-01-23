@@ -28,6 +28,14 @@ body{
     min-height: 480px;
 }
 
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 30px;
+}
+
 .container p {
     font-size: 14px;
     line-height: 20px;
@@ -90,7 +98,7 @@ body{
 }
 
 .container.active .sign-in{
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 
 .sign-up{
