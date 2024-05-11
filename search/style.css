@@ -37,20 +37,23 @@ html,body{
 }
 
 .main-container .search-container{
-    /* background-color: rgb(135, 157, 176);
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    /* background-color: rgb(135, 157, 176); */
+    /* border-radius: 25px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     height: 60%;
     width: 70%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2%;
+    gap: 10%;
+}
+
+.main-container .search-container .search-item {
+    /* background-color: black; */
 }
 
 
-.main-container .search-container .search-item form{
+.main-container .search-container .search-item .form{
     width: 30vw;
     height: 7vh;
     margin-top: 10%;
@@ -58,25 +61,25 @@ html,body{
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 60px;
     border: 1.2rem;
     border-color: white;
     gap: 2%;
 }
 
-.main-container .search-container .search-item form input{
+.main-container .search-container .search-item .form input{
     background: transparent;
     flex: 1;
     border: none;
     outline: none;  
-    color: white;
-    font-size: 16px;
+    font-size:18px;
+    color: rgba(0, 0, 0, 0.9);
     padding-left: 30px;
     font-weight: 400;
 }
 
-.main-container .search-container .search-item form button{
+.main-container .search-container .search-item .form button{
     padding-right: 10px;
     padding-left: 10px;
     background: transparent;
@@ -85,8 +88,46 @@ html,body{
     cursor: pointer;
 }
 
-.main-container .search-container .search-item form button img{
-    width: 2vw;
+.main-container .search-container .search-item .form button ion-icon {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.main-container .search-container .weblist-item {
+    /* background-color: rgb(187, 168, 168); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 10px;
+}
+
+.main-container .search-container .weblist-item-container{
+    /* background-color: rgba(255, 255, 255, 0); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .search-container .weblist-item-container button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    
+}
+
+.main-container .search-container .weblist-item-container button img{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+}
+
+.main-container .search-container .weblist-item-container button p{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 
